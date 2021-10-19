@@ -3,14 +3,15 @@ import java.util.Scanner;
 public class Rechner {
     public static void main(String[] args) {
 
-        Scanner read = new Scanner(System.in);
-        int distance = read.nextInt();
-       //complete the code
-        int kilometers = distance / 1000;
-        int meters = distance % 1000;
-        System.out.println(kilometers);
-        System.out.println(meters);
+        Scanner scanner = new Scanner(System.in);
+		int days = scanner.nextInt();
+		
+		//your code goes here
+        int hours = days * 24;
+        int minutes = hours * 60;
+        int seconds = minutes * 60;
+        System.out.println(seconds);
 
-        read.close();
+        scanner.close();
     }
 }
