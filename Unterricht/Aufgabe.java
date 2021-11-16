@@ -49,7 +49,7 @@ public class Aufgabe {
 
             tag++;
         }
-        System.out.println(anwTag);
+        System.out.println(anwMonat);
 
     }
 }
