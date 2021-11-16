@@ -48,7 +48,7 @@ public class Aufgabe {
 
             tag++;
         }
-        System.out.println(anwMonat);
-
+        System.out.println("Monatliche Std: "+ anwMonat / 60);
+        
     }
 }
