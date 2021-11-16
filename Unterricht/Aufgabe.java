@@ -18,8 +18,7 @@ public class Aufgabe {
         // funktionen initialisieren
 
         // Algorithmus / Codeblock
-        System.out.println("Personal Nr: " + Integer.toString(personalnummer) + " " + "Jahr: " + Integer.toString(jahr)
-                + " " + "Monat: " + Integer.toString(monat));
+        System.out.println("Personal Nr: " + Integer.toString(personalnummer) + " " + "Jahr: " + Integer.toString(jahr)+ " " + "Monat: " + Integer.toString(monat));
         for (zeilen = 0; zeilen < zeiten.length;) {
             anwTag = 0;
             // keine buchung
